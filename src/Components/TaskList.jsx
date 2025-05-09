@@ -6,7 +6,6 @@ export const TaskList = ({ setBugd, bugd }) => {
   console.log(bugd);
   if (bugd.length === 0)
     return <p className={style.add}>No tasks yet.Add one above!</p>;
-  // console.log(bugd);
 
   return (
     <div>
