@@ -3,7 +3,6 @@ import { Button } from "./Button";
 
 export const ActionButtons = ({ setSelectedTab, selectedTab }) => {
   const buttons = ["All", "Active", "Complete"];
-
   return (
     <div className={style.tab}>
       {buttons.map((text, index) => {

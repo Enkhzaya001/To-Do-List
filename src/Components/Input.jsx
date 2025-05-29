@@ -5,7 +5,6 @@ export const Input = ({ task, setTask, setBugd, randomId }) => {
   const handleChange = (event) => {
     setTask(event.target.value);
   };
-
   const clickHandler = () => {
     if (task === "") {
       alert("Please add task");
